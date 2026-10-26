@@ -1,0 +1,7 @@
+{
+ "median_ms": 0.8146250038407743,
+ "n_alarms": 1012,
+ "flood_rate": 1000,
+ "repeats": 200,
+ "python": "3.12.12"
+}

@@ -1,0 +1,48 @@
+# Python 3.12 (the results were produced with CPython 3.12.12 on macOS arm64).
+# Exact versions of the environment that produced the results: the six direct dependencies and everything they pull in.
+#   python3.12 -m venv .venv && .venv/bin/pip install -r requirements.txt
+# Direct dependencies: numpy, pandapower, matplotlib, statsmodels, psutil, pytest; numba (+ llvmlite) is pandapower's
+# optional power-flow accelerator and was installed for every run.
+annotated-types==0.8.0
+contourpy==1.4.0
+cycler==0.12.1
+deepdiff==8.6.2
+fonttools==4.67.0
+formulaic==1.2.2
+geojson==3.3.0
+iniconfig==2.3.1
+interface_meta==2.0.1
+kiwisolver==1.5.1
+llvmlite==0.50.0
+matplotlib==3.11.2
+mypy_extensions==1.1.0
+narwhals==2.27.1
+networkx==3.7
+numba==0.68.0
+numpy==2.5.4
+orderly-set==5.5.0
+packaging==25.0
+pandapower==3.3.3
+pandas==2.3.3
+pandera==0.26.1
+patsy==1.0.3
+pillow==12.3.0
+pluggy==1.6.0
+psutil==7.2.2
+pydantic==2.14.1
+pydantic_core==2.50.1
+Pygments==2.21.0
+pyparsing==3.3.3
+pytest==9.1.1
+python-dateutil==2.9.0.post0
+pytz==2026.5
+scipy==1.16.3
+six==1.17.0
+statsmodels==0.15.0
+tqdm==4.70.1
+typeguard==4.6.0
+typing_extensions==4.16.0
+typing-inspect==0.9.0
+typing-inspection==0.4.4
+tzdata==2026.5
+wrapt==2.5.1
